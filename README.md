@@ -90,8 +90,6 @@ GIT_COMMIT_SHA=A0123456789B
 ```
 
 # .env file
-If you are not using Concierge to get above info, create .env file.
-
 Here is example .env file content.
 
 ```

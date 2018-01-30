@@ -1,5 +1,5 @@
 {
-  "name": "hapigluemanifestmongo",
+  "name": "hapi17-glue-manifest-mongo",
   "version": "0.0.1",
   "description": "Basic template for hapi 17 with glue and manifest and mongoDb connection",
   "main": "index.js",
@@ -25,6 +25,7 @@
     "hapi-auth-jwt2": "git+https://github.com/salzhrani/hapi-auth-jwt2.git#v-17",
     "inert": "5.1.0",
     "joi": "13.1.1",
+    "jsonwebtoken": "^8.1.1",
     "mongo-uri": "0.1.2",
     "mongodb": "3.0.1",
     "shortid": "2.2.8"

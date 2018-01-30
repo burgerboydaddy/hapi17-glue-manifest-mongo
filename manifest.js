@@ -30,10 +30,19 @@ const manifest = {
         plugin: 'inert',
       },
       {
+        plugin: './server/auth',
+      },
+      {
         plugin: './server/health',
       },
       {
         plugin: './server/index',
+      },
+      {
+        plugin: './server/api/protected',
+      },
+      {
+        plugin: './server/api/emulateLogin',
       },
     ],
   },

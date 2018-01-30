@@ -14,6 +14,18 @@ docker build -t my-app-api:0.1 .
 docker run --net=host -e "DB_CONNECTION=mongodb://myAppUser:myAppUserPass@localhost:27021,localhost:27022,localhost:27023/hapiGlueTemplate1?replicaSet=rs0&authSource=admin" my-app-api:1.1
 ```
 
+# Database connection
+I use MongoDb as database of choice. As such you can have your own (local) mongo installation, or you can connect to remote one.
+One option to consider for local development is using docker based MongoDb replica set. Template for creating it is here:
+`https://github.com/burgerboydaddy/authDockerMongo`
+
+# Create .env file
+Using `.env_example` as template, create .env file.
+```
+cp .env_example .env
+```
+After that open file using your favorite editor, and fill with proper values (add new or remove given set of keys).
+
 # Configuration Options
 List of required or optional values
 

@@ -28,7 +28,7 @@ exports.plugin = {
         key: Buffer(process.env.JWT_SECRET_KEY, 'base64'), // Never Share your secret key
         validate, // validate function defined above
         verifyOptions: { algorithms: ['HS256'] }, // pick a strong algorithm
-        cookieKey: 'myTokenCookie.jwt', // token cookie
+        cookieKey: 'myTokenCookie.jwt', // token cookie name
       });
   },
 };

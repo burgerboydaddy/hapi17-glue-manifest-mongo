@@ -1,6 +1,6 @@
 {
   "name": "hapi17-glue-manifest-mongo",
-  "version": "0.0.1",
+  "version": "0.1.1",
   "description": "Basic template for hapi 17 with glue and manifest and mongoDb connection",
   "main": "index.js",
   "keywords": [
@@ -8,6 +8,14 @@
     "glue",
     "template"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:burgerboydaddy/hapi17-glue-manifest-mongo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/burgerboydaddy/hapi17-glue-manifest-mongo/issues"
+  },
+  "homepage": "https://github.com/burgerboydaddy/hapi17-glue-manifest-mongo",
   "author": "Vladimir Ilic",
   "dependencies": {
     "boom": "7.1.1",
@@ -40,13 +48,12 @@
     "eslint-plugin-promise": "^3.6.0",
     "eslint-plugin-react": "^7.6.1",
     "eslint-plugin-standard": "^3.0.1",
-    "lab": "15.2.x",
+    "lab": "^15.2.1",
     "proxyquire": "1.8.0",
     "webpack": "3.10.0"
   },
   "engines": {
-    "node": "~8.9.4",
-    "npm": "~5.6.0"
+    "node": ">=8.x.x"
   },
   "scripts": {
     "start": "node server.js"

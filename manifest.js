@@ -17,6 +17,12 @@ const manifest = {
   register: {
     plugins: [
       {
+        plugin: 'hapi-auth-basic',
+      },
+      {
+        plugin: 'hapi-auth-jwt2',
+      },
+      {
         plugin: require('good'),
         options: Config.get('/goodOptions'),
       },
